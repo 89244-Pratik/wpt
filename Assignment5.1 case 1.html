@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Maximum</title>
+</head>
+<body>
+    <h1 id="max">Greater Number Will Show Here</h1>
+
+    <script>
+        
+        const value1 = Number(prompt("Enter first number:"));
+        const value2 = Number(prompt("Enter second number:"));
+        const value3 = Number(prompt("Enter third number:"));
+
+        let max;
+
+        
+        if (value1 >= value2 && value1 >= value3) {
+            max = value1;
+        } else if (value2 >= value1 && value2 >= value3) {
+            max = value2;8
+        } else {
+            max = value3;
+        }
+
+    alert("Maximum number is: " + max);
+       // document.getElementById("max").textContent = "Maximum number is: " + max;
+        
+    </script>
+</body>
+</html>
